@@ -2,8 +2,7 @@
 from aiogram import Router, F  # обработчики
 from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton  # типы
 from aiogram.filters import Command  # фильтры
-from dulwich.porcelain import reset
-from urllib3.util.url import url_attrs
+
 
 # Свои модули
 import keyboard
